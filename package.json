@@ -1,0 +1,26 @@
+{
+    "name": "tesoreria-rest",
+    "version": "1.0.0",
+    "description": "REST API para control de tesorería de iglesia cristiana en el municipio de El Estor.",
+    "main": "server/server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Intelguasoft/tesoreria-rest.git"
+    },
+    "author": "Henry Díaz <hnrdiaz@gmail.com> (@intelguasoft)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Intelguasoft/tesoreria-rest/issues"
+    },
+    "homepage": "https://github.com/Intelguasoft/tesoreria-rest#readme",
+    "dependencies": {
+        "bcrypt": "^3.0.2",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "mongoose": "^5.3.7",
+        "mongoose-validator": "^2.1.0"
+    }
+}
