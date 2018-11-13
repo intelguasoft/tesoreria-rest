@@ -4,6 +4,7 @@
     "description": "REST API para control de tesorería de iglesia cristiana en el municipio de El Estor.",
     "main": "server/server.js",
     "scripts": {
+        "start": "node server/server",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
